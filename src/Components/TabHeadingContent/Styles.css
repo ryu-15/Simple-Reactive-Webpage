@@ -1,0 +1,48 @@
+
+/*stat-card-section CSS*/
+.stat-card-section {
+ display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 3rem;
+}
+/*display css*/
+.stat-card-box{
+    display: flex;
+}
+/*appearance css*/
+.stat-card-box{
+    width: 29rem;
+    height: 14rem;
+    border-radius: 0.7rem;
+    border: 0.5rem solid var(--lightGray);
+    background-color: white;
+}
+.stat-card-box-content{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.smiley-img{
+    width: 4.5rem;
+    height: 4.5rem;
+    align-self: center;
+}
+.stat-card-section-label{
+    font-family: var(--defaultFont);
+    font-size:2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+.stat-card-section-revel{
+    font-family: var(--defaultFont);
+    color: var(--grayOne);
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+}

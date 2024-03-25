@@ -1,0 +1,67 @@
+/*NAV-BAR CSS */
+.Nav-items a{
+    font-family: var(--defaultFont);
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 2.8rem;
+}
+.Nav-items li {
+    display: inline;
+}
+nav{
+    padding-top: 16px;
+    padding-left:5%;
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+    position: fixed;
+    height: 10%;
+    top:0;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    z-index: 999;
+}
+.Nav-items {
+    display: flex;
+    flex-direction: row;
+    gap:30%
+}
+.revel-logo {
+    font-family: var(--fancyFont);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--grayOne);
+    margin-left: 5%;
+}
+.sign-login-btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+
+
+}
+#sign-btn, #login-btn {
+    font-family: var(--defaultFont);
+    font-size: 1rem;
+    padding: 16px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 144px;
+    height: 48px;
+    line-height: 0;
+}
+#sign-btn {
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    background-color: white;
+}
+
+#login-btn {
+    border: 2px solid var(--blue);
+    background-color: var(--blue);
+    color: white;
+}

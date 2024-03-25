@@ -1,0 +1,49 @@
+
+.tab-button-wrapper {
+    display: flex;
+    background: var(--grayWhite);
+    height: 80px;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-content: center;
+    padding-top: 1rem;
+    padding-left: 6rem;
+}
+
+.tab-container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.tabHeadingElement {
+    cursor: pointer;
+}
+
+/*font css*/
+.tabHeadingElement {
+    font-family: var(--defaultFont);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/*appearance css*/
+.tabHeadingElement {
+    border: 0;
+    width: 11.5rem;
+    height: 4rem;
+    align-self: center;
+    background: transparent;
+    border-radius: 10px;
+}
+
+
+    /*action css*/
+    /*.tabHeadingElement:hover*/
+    /*{*/
+    /*    box-shadow:var(--hoverShadow);*/
+    /*}*/
+.tabHeadingElement:hover,.tabHeadingElement.active {
+    box-shadow: var(--hoverShadow);
+}

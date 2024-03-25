@@ -1,0 +1,23 @@
+/*Text-section css*/
+h2 {
+    padding-top: 218px;
+    color: var(--grayTwo);
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+.landing-page-content{
+    padding-left: 90px;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--defaultFont);
+}
+.text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 738px;
+    font-size: 1.125rem;
+}
+

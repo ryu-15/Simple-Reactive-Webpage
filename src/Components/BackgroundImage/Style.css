@@ -1,0 +1,78 @@
+/*background fancy button dope*/
+.background-section{
+    height: 100%;
+    width: 100%;
+}
+.revel-logo-img {
+    position: absolute;
+    top:60%;
+    left: 50%;
+    z-index: 1;
+    border-radius: 100px;
+}
+.ui-ux-img {
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    z-index: 1;
+    border-radius: 100px;
+}
+
+/*background image css*/
+.background-small-1-ellipse, .background-small-2-ellipse, .background-small-3-ellipse, .background-small-4-ellipse {
+    width:2.7rem;
+    height: 2.7rem;
+    z-index: 1;
+}
+
+.background-robot-img {
+    position: absolute;
+    opacity: 30%;
+    width:34rem;
+    height: 34rem;
+    top: 24%;
+    left: 60%;
+    z-index: 1;
+}
+
+.background-big-ellipse {
+    width: 3.5rem;
+    height:3.5rem;
+    position: absolute;
+    top: 25%;
+    left: 46%;
+    border-radius: 50%;
+}
+
+.background-small-1-ellipse {
+    position: absolute;
+    top: 18%;
+    left: 93%;
+}
+
+.background-small-2-ellipse {
+    position: absolute;
+    top: 84%;
+    left: 97%;
+}
+
+.background-small-3-ellipse {
+    position: absolute;
+    top: 80%;
+    left: 56%;
+    z-index: 1000;
+}
+
+.hollow-circle {
+    position: absolute;
+    width: 40.625rem;
+    height: 40.625rem;
+    top: 12%;
+    left: 57%;
+    z-index: 0;
+}
+
+.background-robot-img-wrapper {
+    background-color: var(--grayWhite);
+    opacity: 50%;
+}
