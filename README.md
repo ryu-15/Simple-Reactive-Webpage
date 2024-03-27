@@ -7,7 +7,7 @@ We have used external CSS to style the components of webpage.
 
 ## Follow these simple steps to get your webpage up and running quickly.
 
----
+
 
 - ## Installation Guide:
 
