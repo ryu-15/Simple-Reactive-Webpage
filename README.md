@@ -5,35 +5,48 @@ This is a webpage made by using react framework, typescript as the core ,and vit
 
 We have used external CSS to style the components of webpage.
 
----
-### Install NPM:
-
-First,you have to generate package.json file: 
-
-`npm init -y`
-
-Then, we will install all dependencies or devDependencies in the local node_modules folder :
-
-`npm install`
+## Follow these simple steps to get your webpage up and running quickly.
 
 ---
 
-### Open the terminal:
+## Installation Guide:
 
-Secondly, we run the development server :
+### Step 1: Install NPM Dependencies
 
-`npm run dev`
+Step 1 - Install all dependencies in the local node_modules folder :
+
+```npm install```
 
 ---
-### Open the local host
+## Running Your Development Server:
+
+### Step 2: Start Development Server
+
+
+Run the development server
+
+```npm run dev```
+
+---
+## Accessing Your Local Host:
+
+### Step 3: Open the local host
 
 > ➜  Local:   http://localhost:3000/
 
 ---
 
-In this webpage, we have a responsive component that is the tab heading,
 
-- It will provide different tab respectively to the clicked tab. 
-- It will also appear differently when it clicked/hover over.
+## Overview of the webpage
 
-----
+>Landing Page of the webpage
+
+![Landing Page](src/assets/OverviewImage/OverviewLandingPage.png)
+
+>Tab Page of webpage
+
+![Landing Page](src/assets/OverviewImage/OverviewTabPage.png)
+
+
+
+
