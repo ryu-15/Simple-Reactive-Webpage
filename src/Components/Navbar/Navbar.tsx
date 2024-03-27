@@ -1,7 +1,7 @@
 
 const NavBar=()=>{
     return (
-        <nav>
+        <div>
             <div className="Nav-items">
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>About</a></li>
@@ -12,7 +12,7 @@ const NavBar=()=>{
                 <button id="sign-btn">Button text</button>
                 <button id="login-btn">Button text</button>
             </div>
-        </nav>
+        </div>
     )
 };
 

@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# Simple Webpage with React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This is a webpage made by using react framework, typescript as the core ,and vite as the bundler.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+We have used external CSS to style the components of webpage.
 
-## Expanding the ESLint configuration
+---
+### Install NPM:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+First,you have to generate package.json file: 
 
-- Configure the top-level `parserOptions` property like this:
+`npm init -y`
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Then, we will install all dependencies or devDependencies in the local node_modules folder :
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+`npm install`
+
+---
+
+### Open the terminal:
+
+Secondly, we run the development server :
+
+`npm run dev`
+
+---
+### Open the local host
+
+> ➜  Local:   http://localhost:3000/
+
+---
+
+In this webpage, we have a responsive component that is the tab heading,
+
+- It will provide different tab respectively to the clicked tab. 
+- It will also appear differently when it clicked/hover over.
+
+----
