@@ -9,31 +9,26 @@ We have used external CSS to style the components of webpage.
 
 ---
 
-## Installation Guide:
+- ## Installation Guide:
 
-### Step 1: Install NPM Dependencies
+    ### Step 1 : Install all dependencies in the local node_modules folder
+    
+    ```npm install```
+    
+---
+- ## Running Your Development Server:
 
-Step 1 - Install all dependencies in the local node_modules folder :
-
-```npm install```
+    ### Step 2: Start Development Server
+    
+    ```npm run dev```
 
 ---
-## Running Your Development Server:
+- ## Accessing Your Local Host:
 
-### Step 2: Start Development Server
-
-
-Run the development server
-
-```npm run dev```
-
----
-## Accessing Your Local Host:
-
-### Step 3: Open the local host
-
-> ➜  Local:   http://localhost:3000/
-
+    ### Step 3: Open the local host
+    
+    > ➜  Local:   http://localhost:3000/
+    
 ---
 
 
