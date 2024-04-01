@@ -36,11 +36,11 @@ We have used external CSS to style the components of webpage.
 
 >Landing Page of the webpage
 
-![Landing Page](src/assets/OverviewImage/OverviewLandingPage.png)
+![Landing Page](public/OverviewImage/OverviewLandingPage.png)
 
 >Tab Page of webpage
 
-![Landing Page](src/assets/OverviewImage/OverviewTabPage.png)
+![Landing Page](public/OverviewImage/OverviewTabPage.png)
 
 
 
